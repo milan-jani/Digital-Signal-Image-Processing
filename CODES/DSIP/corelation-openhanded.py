@@ -55,3 +55,9 @@ plt.ylabel('Magnitude')
 
 plt.tight_layout()
 plt.show()
+
+# Observations
+# • Cross-correlation: Measures similarity between original and karaoke versions, peak indicates time alignment
+# • Autocorrelation: Shows signal self-similarity, maximum peak at center (zero lag)
+# • Both signals show high correlation confirming they are versions of the same song
+# • Useful for audio synchronization, pattern detection, and similarity measurement
